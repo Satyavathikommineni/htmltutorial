@@ -161,7 +161,7 @@ span,img,a -- inline elements
 type-- text,radio,checkbox,email,date
 -->
 <h2>Registration Form</h2>
-<form>
+<form action="">
     <label for="firstname">First Name</label><br>
     <input type="text" name="firstname" placeholder="Enter Your First Name"/><br>
     <label for="lasttname">Last Name</label><br>
@@ -185,10 +185,24 @@ type-- text,radio,checkbox,email,date
         <option value="School">10-20</option>
         <option value="College">21-25</option>
         <option value="Working">26-40</option>
-    </select>
-    
-    
-
-
+    </select><br>
+    <button type="submit">Submit</button>
 </form>
+<hr>
+<!-- Iframes -->
+<iframe src="http://www.wikipedia.org" width="200" height="200"></iframe><br>
+
+<!-- Audio&video-->
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg"/>
+    Your browser does not support the audio element
+</audio>
+<hr>
+<video width="320" height="240" controls>
+    <source src="End screen.mp4" type="video/mp4"/>
+    Your browser does not support the audio element
+</video>
+<hr/>
+
+<!--Html Semantics-- header,footer,nav,section,aside-->
 </html>
